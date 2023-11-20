@@ -1,0 +1,4 @@
+
+DBT (Data Build Tool) adalah perangkat lunak open-source yang dirancang khusus untuk mempermudah dan mengelola transformasi data dalam proyek analisis data modern. 
+Singkatnya, DBT merupakan alat yang digunakan untuk melakukan transformasi data di dalam warehouse data. 
+Ia memungkinkan pengguna untuk membuat, mengelola, dan menjalankan transformasi data secara terstruktur dan dapat diulang dengan mudah.

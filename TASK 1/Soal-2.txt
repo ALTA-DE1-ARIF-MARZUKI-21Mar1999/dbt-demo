@@ -1,0 +1,20 @@
+Berikut adalah beberapa keuntungan utama menggunakan DBT:
+
+1. Keterbukaan dan Keterjangkauan: 
+DBT adalah perangkat lunak open-source, yang berarti dapat diakses secara gratis dan dikembangkan secara terbuka oleh komunitas. 
+Hal ini membuatnya lebih terjangkau bagi berbagai ukuran organisasi, baik besar maupun kecil.
+
+2. Sederhana dan Mudah Digunakan: 
+DBT menggunakan bahasa SQL untuk transformasi data, yang merupakan bahasa yang dikenal luas di kalangan profesional data. 
+Ini membuatnya mudah dipahami dan digunakan oleh analis data, pengembang, atau profesional data lainnya tanpa memerlukan pembelajaran bahasa pemrograman yang baru.
+
+3. Pendekatan Berbasis Model: 
+DBT menggunakan pendekatan yang berbasis model untuk menggambarkan transformasi data. 
+Hal ini membantu dalam memahami secara jelas struktur data hasil akhir, membuat dokumentasi secara otomatis, dan memudahkan komunikasi antar anggota tim.
+
+4. Skalabilitas dan Ketahanan: DBT dirancang untuk mengelola transformasi data dalam lingkungan yang skalabel. 
+Ini memungkinkan penggunaannya dalam proyek-proyek yang melibatkan jumlah data yang besar, menjaga konsistensi, dan ketahanan pada skala yang lebih besar.
+
+5. Integrasi dengan Alat Data Lainnya: 
+DBT dapat diintegrasikan dengan alat-alat analisis data lainnya seperti BI tools (misalnya, Tableau, Power BI), 
+warehouse data (seperti BigQuery, Snowflake, Redshift), dan sistem kontrol versi (seperti Git), memungkinkan ekosistem alat data yang terintegrasi.

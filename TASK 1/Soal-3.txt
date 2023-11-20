@@ -1,0 +1,17 @@
+
+Dependency tree (pohon dependensi) dan versioning (penomoran versi) adalah dua konsep kunci yang terkait dengan penggunaan DBT (Data Build Tool) dalam manajemen transformasi data:
+
+1. Dependency Tree (Pohon Dependensi):
+Dependency tree dalam konteks DBT mengacu pada struktur dependensi antara model-model data yang didefinisikan dalam proyek DBT. 
+Setiap model memiliki ketergantungan pada model-model lain yang menjadi inputnya. 
+Misalnya, jika Model A bergantung pada Model B dan Model C, maka Model A akan memiliki dependensi terhadap Model B dan Model C.
+DBT secara otomatis membangun pohon dependensi berdasarkan hubungan antara model-model yang ditentukan dalam proyek. 
+Ketika terjadi perubahan pada salah satu model, DBT akan memahami dependensi dan secara otomatis mengeksekusi transformasi pada model-model terkait yang diperlukan untuk memperbarui data secara konsisten.
+
+
+2. Versioning (Penomoran Versi):
+Versioning dalam DBT mengacu pada praktik memberikan nomor versi (version number) atau tag pada transformasi data yang telah didefinisikan. 
+Ini memungkinkan pengguna untuk melacak perubahan pada transformasi data dari waktu ke waktu dan memudahkan manajemen versi atau rollback jika diperlukan.
+DBT mendukung versioning dengan memanfaatkan sistem kontrol versi seperti Git. 
+Pengguna dapat memberikan tag atau nomor versi pada proyek DBT setiap kali ada perubahan signifikan pada transformasi data. 
+Hal ini membantu dalam memahami riwayat perubahan, menyediakan dokumentasi otomatis, dan memudahkan kolaborasi tim.
